@@ -1,37 +1,24 @@
 🚀 Oxy Run Script for QBCore
-This script is a fully structured and optimized oxy run mission system designed for FiveM using the QBCore Framework.
 
-Features Included:
-✅ Vehicle Rental & Return System (With 3D Text Prompts & Automatic Key Assignment)
-✅ Dynamic NPC Interactions (Friendly, Neutral, Aggressive Reactions)
-✅ Waypoint & Navigation System
-✅ Mission Cooldowns & Anti-Abuse Mechanisms
-✅ Police Alerts, Random Chases & Bribery System
-✅ Item Rewards Based on Chance
-✅ Fully Optimized for Performance & Server Stability
 
-📂 File Structure
-arduino
-Copy
+📌 Dependencies
+This script requires the following resources:
+
+
 Edit
-qb-oxy-run/
-│── fxmanifest.lua
-│── config.lua
-│── server.lua
-│── client.lua
-│── locales/
-│   ├── en.lua
-│── README.md
-📌 Installation Guide
+qb-core
+qb-target
+qb-menu
+qb-vehiclekeys
+
+
+
 ✅ 1. Download & Place the Script
 Download or clone this repository.
 Place the qb-oxy-run folder inside your resources/[qb] directory.
 ✅ 2. Add to server.cfg
 Add the following line to your server.cfg:
 
-ini
-Copy
-Edit
 ensure qb-oxy-run
 ✅ 3. Restart Your Server
 Restart your FiveM server to load the script.
@@ -43,13 +30,12 @@ Modify settings such as:
 Rental & Return Locations
 NPC Locations & Reactions
 Mission Rewards & Item Drop Rates
-Police Alert & Bribery Mechanics
+
 Cooldowns & Player Progression
 📌 Dependencies
 This script requires the following resources:
 
-ini
-Copy
+
 Edit
 qb-core
 qb-target
