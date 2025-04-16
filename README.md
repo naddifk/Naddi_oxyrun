@@ -105,8 +105,6 @@ Item Rewards: Dropped based on percentage chances.
 
 Example configuration:
 
-lua
-Copy
 Edit
 Config.RewardItems = {
     {name = "oxy", chance = 40},       -- 40% chance
@@ -116,22 +114,6 @@ Config.RewardItems = {
     {name = "bandage", chance = 5}     -- 5% chance
 }
 Bribery System: Players can pay NPCs to reduce the chance of police alerts.
-
-🚓 Police & Chase System
-If a police alert is triggered:
-
-A random chance determines if a chase starts.
-
-AI police will spawn and pursue the player.
-
-Players can attempt to escape or risk being caught!
-
-🔮 Future Enhancements
-Gang Affiliations: Affect NPC reactions.
-
-Hidden Missions: Unlock through bribery.
-
-"Most Wanted" System: For aggressive players.
 
 📌 Final Notes
 Fully optimized for performance and scalability.
